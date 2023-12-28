@@ -45,7 +45,7 @@ public class App {
         int mes = s.nextInt();
         System.out.println(getMes(mes));
 
-
+        s.close();
     }
 
     // IF, ELSE IF, ELSE

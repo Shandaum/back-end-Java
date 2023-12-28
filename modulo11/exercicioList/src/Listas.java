@@ -34,6 +34,7 @@ public class Listas {
         System.out.println("Lista dos nomes femininos: ");
         femininoList.obterNomesFemininos();
 
+        s.close(); 
     }
 
     private List<Masculino> masculinoList;
